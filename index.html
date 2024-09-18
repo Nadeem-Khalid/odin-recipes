@@ -3,19 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Odin Recipes</title>
   </head>
   <body>
     <h1>Odin Recipes</h1>
-    <ul>
-      <li>
-        <a href="./recipes/steak_marinade.html" target="_self"
-          >Steak marinade recipe</a
-        >
-      </li>
-      <li>
-        <a href="./recipes/noodle.html" target="_self">Spicy beef noodle</a>
-      </li>
-    </ul>
+    <div class="container">
+        <h2>Take a look at some of our delicious recipes!</h2>
+
+        <div class="recipe_1">
+            <img src="/recipes/steak.png" alt="Steak" height="300" width="400px">
+            <a  
+            class="recipe_card recipe_1"
+            href="./recipes/steak_marinade.html"
+            target="_self" 
+              >Steak marinade recipe</a
+          >
+        </div>
+        
+        <div class="recipe_2">
+            <img src="/recipes/noodle.png" alt="Bowl of noodles" height="300px" width ="400px">
+            <a
+            class="recipe_card recipe_2"
+            href="./recipes/noodle.html"
+            target="_self"
+            >Spicy beef noodle</a>
+        </div>
+
+          
+      </ul>
+    </div>
   </body>
 </html>
